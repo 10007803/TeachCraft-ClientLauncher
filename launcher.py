@@ -167,5 +167,5 @@ launcherProfiles = {
 username = raw_input("Username: ")
 p = Profile(launcherProfiles["profiles"]["teachcraft"])
 p.downloadMissingFiles()
-print "> Starting Minecraft..."
+print("> Starting Minecraft...")
 os.system("cd mcdata && %s" % p.launchcmd(username))
